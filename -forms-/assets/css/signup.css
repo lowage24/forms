@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;}
+.signup{
+
+}
+.container{
+    margin: 0 auto;
+    width: 1392px;
+    justify-self: center;
+    flex-direction: column;
+}
+.signup__title_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: -0.015em;
+    text-align: center;
+    
+}
+.signup__title{
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 30px;
+}
+.signup__text{
+    font-size: 36px;
+    line-height: 50px;
+    margin-bottom: 80px;
+}
+.signup__block{
+    width: 494px;
+    height: 311px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding:64px;
+}
+.signup__subtitle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 43px;
+}
+.signup__create{
+    display: flex;
+    flex-direction: column;
+}
+.signup__names{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.signup__name{
+    width: 223px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding-left: 14px;
+}
+.signup__pass{
+    width: 480px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 24px;
+    padding-left: 14px;
+}
+.signup__btn{
+    background: #18A0FB;
+    border-radius: 6px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    padding: 11px 34px;
+    color: #FFFFFF;
+    width: 130px; 
+}
+.signup__wrap{
+    display: flex;
+    justify-content: center;
+}
